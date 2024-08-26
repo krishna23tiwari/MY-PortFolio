@@ -129,6 +129,7 @@ const experiences = [
     icon: "bfelogo.jpeg",
     iconBg: "#fcfafa",
     date: "Jun 2024- Aug 2024",
+    link:"https://drive.google.com/file/d/1-RDb_GBbw86BneAL1hntM36nPUx1owm-/view",
     points: [
       // "Developing and maintaining web applications using React.js, Next.js, Express.js and other related technologies.",
       // "Developed and maintained reliable web applications with user-friendly interfaces using ReactJS, Next.js, and Tailwind CSS, collaborating with cross-functional teams to meet project requirements",
@@ -147,6 +148,7 @@ const experiences = [
     icon: "hilogo.jpeg",
     iconBg: "#d4cfcf",
     date: "Jan 2024- May 2024",
+    link:"https://drive.google.com/file/d/1_D66BYcIcNs8K6ecJy4ReC6aLk55vDfC/view",
     points: [
         "Developing and maintaining web applications using React.js, Next.js, Express.js and other related technologies.",
       "Developed and maintained reliable web applications with user-friendly interfaces using ReactJS, Next.js, and Tailwind CSS, collaborating with cross-functional teams to meet project requirements",
@@ -160,6 +162,7 @@ const experiences = [
     icon: "oct.jpeg",
     iconBg: "#fcfafa",
     date: "October 2023 - December 2023", 
+    link:"https://drive.google.com/file/d/1PFSn4BcwO8sgodhpvPh1LZk9-p3_Yx5a/view",
     points: [
       "Collaborated with a team to create and maintain web applications, gaining hands-on experience in HTML5, CSS3, and JavaScript.",
       "Assisted in designing and developing user interfaces with React.JS, creating interactive and responsive web experiences.",
@@ -190,6 +193,7 @@ const testimonials = [
     designation: "CTO",
     company: "456 Enterprises",
     image: "SDE.png",
+    link:"https://www.hackerrank.com/certificates/afc7a78f4549",
   },
   {
     testimonial:
@@ -198,6 +202,7 @@ const testimonials = [
     designation: "CTO",
     company: "456 Enterprises",
     image: "React.png",
+    link:"https://www.hackerrank.com/certificates/e06e6db1c752",
   },
   {
     testimonial:
@@ -206,6 +211,7 @@ const testimonials = [
     designation: "COO",
     company: "DEF Corp",
     image: "SIH.jpg",
+    link:"https://drive.google.com/file/d/1v51Oe5MVg9uZ4pxgyubYlzgteeHabQIj/view",
   },
   {
     testimonial:
@@ -214,6 +220,7 @@ const testimonials = [
     designation: "CFO",
     company: "Acme Co",
     image: "BI.jpg",
+    link:"https://drive.google.com/file/d/1-RDb_GBbw86BneAL1hntM36nPUx1owm-/view",
   },
   {
     testimonial:
@@ -222,6 +229,7 @@ const testimonials = [
     designation: "CTO",
     company: "456 Enterprises",
     image: "Oct.jpg",
+    link:"https://drive.google.com/file/d/1PFSn4BcwO8sgodhpvPh1LZk9-p3_Yx5a/view",
   },
   {
     testimonial:
@@ -230,6 +238,34 @@ const testimonials = [
     designation: "CTO",
     company: "456 Enterprises",
     image: "Python.png",
+    link:"https://drive.google.com/file/d/1v722kvhrcnao2bMJ8xBaRfIMbSZ8kklB/view"
+  },
+  {
+    testimonial:
+      "I thought it was impossible to make a website as beautiful as our product, but Jaser proved me wrong.",
+    name: "Smart India Hackathon",
+    designation: "CFO",
+    company: "Acme Co",
+    image: "GoldSach.jpg",
+    link:"https://drive.google.com/file/d/1vM9fG0nW5ihc8zJGaVPSGULxKVm9hnhE/view",
+  },
+  {
+    testimonial:
+      "After Jaser optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Web Development Certificate",
+    designation: "CTO",
+    company: "456 Enterprises",
+    image: "Accenture.png",
+    link:"https://drive.google.com/file/d/1XB1ARjHSXhT_l6nlFZqs4cyDiMpAvGGc/view",
+  },
+  {
+    testimonial:
+      "After Jaser optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Web Development Certificate",
+    designation: "CTO",
+    company: "456 Enterprises",
+    image: "CIT .jpg",
+    link:"https://drive.google.com/file/d/1X8maaMJ8H8Hpxo2PYAvRWW7-pq4RAgL7/view"
   },
 ];
 
@@ -258,6 +294,7 @@ const projects = [
       },
     ],
     image: "chatt.jpg",
+    link:"https://real-time-chat-frontend-1.vercel.app/",
     source_code_link: "https://github.com/ManuSaini9084/Real-Time-Chat-Frontend",
   },
   {
@@ -283,6 +320,7 @@ const projects = [
       },
     ],
     image: "rail.jpg",
+    link:"https://github.com/ManuSaini9084/Railway-irctc",
     source_code_link: "https://github.com/ManuSaini9084/Railway-irctc",
   },
   {
@@ -304,6 +342,7 @@ const projects = [
       },
     ],
     image: "incl.avif",
+    link:"https://inclusion-empowering-india-wfen.onrender.com/",
     source_code_link: "https://github.com/yashpatel139/Inclusion",
   },
 ];

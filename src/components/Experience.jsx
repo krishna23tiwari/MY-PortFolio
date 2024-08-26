@@ -33,7 +33,12 @@ const ExperienceCard = ({ experience }) => {
       }
     >
       <div>
-        <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
+      <div className="inline-flex items-center">
+  <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
+  <a href={experience.link}><img className="w-10 h-10 ml-5" src="view.jpeg" alt="View" /></a>
+</div>
+
+       
         <p
           className='text-secondary text-[16px] font-semibold'
           style={{ margin: 0 }}

@@ -14,6 +14,7 @@ const ProjectCard = ({
   description,
   tags,
   image,
+  link,
   source_code_link,
 }) => {
   return (
@@ -26,7 +27,7 @@ const ProjectCard = ({
         }}
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
-      <a href=""> <div className='relative w-full h-[230px]'>
+      <a href={link}> <div className='relative w-full h-[230px]'>
           <img
             src={image}
             alt='project_image'
