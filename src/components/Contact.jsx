@@ -39,16 +39,17 @@ const Contact = () => {
       .send(
         // import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
         // import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
-        'template_6sqyumw',
-        'service_sxcsjlc',
+        
+        'service_m5u97or',
+        'template_70p5qen',
         {
           from_name: form.name,
-          to_name: "Syed Ahmedullah Jaser",
+          to_name: "Manu saini",
           from_email: form.email,
-          to_email: "syedahmedullahjaser@gmail.com",
+          to_email: "manusaini22092003@gmail.com",
           message: form.message,
         },
-        '2c-QZKQfzxOJDKzuO'
+        'Lyi7bwMlspOLLJ64o'
         // import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
       .then(

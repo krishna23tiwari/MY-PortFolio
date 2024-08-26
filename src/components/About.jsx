@@ -47,11 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Next.js, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+       I'm computer science student from IET Lucknow. I'm a passionate Full Stack Web Developer and Competitive Programmer. Over 6-8 months of internship experience, I have dedicated myself to mastering key technologies required for Full Stack Web Development. My skills include React.js, Next.js, Node.js, Express.js, MySQL, MongoDB, PostgreSQL, HTML, CSS, and JavaScript.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

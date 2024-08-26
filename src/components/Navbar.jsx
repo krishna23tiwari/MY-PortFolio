@@ -47,21 +47,21 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         > 
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
+          <img src="mlogo.avif" alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Jaser &nbsp;
+            Manu &nbsp;
             <span className='sm:block hidden'> | Full-Stack Developer</span>
           </p>
         </Link>
             
             <div className="flex gap-4 ml-5">
-            <a href="https://www.linkedin.com/in/ahmedullahsyed/" target="_blank">
+            <a href="https://www.linkedin.com/in/manu-saini-840515215/" target="_blank">
                 <img src={linkedin} alt="" className='w-9 h-9' />
               </a>
-            <a href="https://github.com/syedahmedullah14"  target="_blank">
+            <a href="https://github.com/ManuSaini9084"  target="_blank">
                 <img src={github} alt="" className='w-9 h-9' />
               </a>
-            <a href="https://x.com/syed_ahmedullah"  target="_blank">
+            <a href="https://x.com/ManuSaini82045"  target="_blank">
                 <img src={x} alt="" className='w-9 h-9' />
               </a>
               </div>

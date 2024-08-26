@@ -28,7 +28,9 @@ import {
   sun,
   payment,
   intelligence2,
-  rental
+  rental,
+  
+  
 } from "../assets";
 
 export const navLinks = [
@@ -38,7 +40,7 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Experience",
   },
   {
     id: "contact",
@@ -48,11 +50,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Mern Stack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Frontend Developer",
     icon: mobile,
   },
   {
@@ -60,7 +62,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Competitive Programmer",
     icon: creator,
   },
 ];
@@ -122,39 +124,42 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Developer",
-    company_name: "Tata Consultancy Services",
-    icon: tcs,
-    iconBg: "#383E56",
-    date: "September 2021 -  Present",
+    title: "Software Development Internship",
+    company_name: "Bluestock Fintech",
+    icon: "bfelogo.jpeg",
+    iconBg: "#fcfafa",
+    date: "Jun 2024- Aug 2024",
     points: [
       // "Developing and maintaining web applications using React.js, Next.js, Express.js and other related technologies.",
-      "Developed and maintained reliable web applications with user-friendly interfaces using ReactJS, Next.js, and Tailwind CSS, collaborating with cross-functional teams to meet project requirements",
-      "Managed databases (MySQL, MongoDB) and developed scalable JavaScript applications using Express.js, ensuring data integrity, security, and maintainability.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      // "Implementing responsive design and ensuring cross-browser compatibility.",
+      // "Developed and maintained reliable web applications with user-friendly interfaces using ReactJS, Next.js, and Tailwind CSS, collaborating with cross-functional teams to meet project requirements",
+      // "Managed databases (MySQL, MongoDB) and developed scalable JavaScript applications using Express.js, ensuring data integrity, security, and maintainability.",
+      // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      // // "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and developed a stock market website using Python, Django, and Figma, etc.",
+      "Gained hands-on experience in stock market app development, contributing to real-world projects.",
+      "Tech used - Python, Django, Figma",
     ],
 },
   {
-    title: "Founder and CEO",
-    company_name: "IntElligence Tech Solutions",
-    icon: intelligence,
-    iconBg: "#000000",
-    date: "July 2022 - Present",
+    title: "Software Developer Intern",
+    company_name: "Hashedbit Innovation",
+    icon: "hilogo.jpeg",
+    iconBg: "#d4cfcf",
+    date: "Jan 2024- May 2024",
     points: [
-      "As founder and CEO, I lead IntElligence Tech Solutions in creating cutting-edge web applications, staying ahead of industry trends.",
-      "I oversee the entire development process, ensuring top-quality code and seamless, responsive applications using the latest technologies.",
-      "I translate client needs into robust, user-friendly applications, delivering custom solutions that drive growth and engagement.",
-      "Under my leadership, we've launched numerous high-impact web applications, improving efficiency and generating significant ROI for clients.",
+        "Developing and maintaining web applications using React.js, Next.js, Express.js and other related technologies.",
+      "Developed and maintained reliable web applications with user-friendly interfaces using ReactJS, Next.js, and Tailwind CSS, collaborating with cross-functional teams to meet project requirements",
+      "Managed databases (MySQL, MongoDB) and developed scalable JavaScript applications using Express.js, ensuring data integrity, security, and maintainability.",
+      "Tech used - Reactjs, Nodejs, Expressjs, MySQL, CSS, Javascript."
     ],
   },
   {
-    title: "Software Developer Intern",
-    company_name: "Sun Mobility",
-    icon: sun,
-    iconBg: "#E6DEDD",
-    date: "March 2021 - August 2021",
+    title: "Full Stack Developer Intern",
+    company_name: "Octanet Services Pvt Ltd",
+    icon: "oct.jpeg",
+    iconBg: "#fcfafa",
+    date: "October 2023 - December 2023", 
     points: [
       "Collaborated with a team to create and maintain web applications, gaining hands-on experience in HTML5, CSS3, and JavaScript.",
       "Assisted in designing and developing user interfaces with React.JS, creating interactive and responsive web experiences.",
@@ -180,36 +185,60 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Jaser proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Jaser does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "After Jaser optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Web Development Certificate",
+    designation: "CTO",
+    company: "456 Enterprises",
+    image: "SDE.png",
   },
   {
     testimonial:
       "After Jaser optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+    name: "Web Development Certificate",
     designation: "CTO",
     company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: "React.png",
+  },
+  {
+    testimonial:
+      "I've never met a web developer who truly cares about their clients' success like Jaser does.",
+    name: "SDE Intern Certificate",
+    designation: "COO",
+    company: "DEF Corp",
+    image: "SIH.jpg",
+  },
+  {
+    testimonial:
+      "I thought it was impossible to make a website as beautiful as our product, but Jaser proved me wrong.",
+    name: "Smart India Hackathon",
+    designation: "CFO",
+    company: "Acme Co",
+    image: "BI.jpg",
+  },
+  {
+    testimonial:
+      "After Jaser optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Web Development Certificate",
+    designation: "CTO",
+    company: "456 Enterprises",
+    image: "Oct.jpg",
+  },
+  {
+    testimonial:
+      "After Jaser optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Web Development Certificate",
+    designation: "CTO",
+    company: "456 Enterprises",
+    image: "Python.png",
   },
 ];
 
 const projects = [
   {
-    name: "Payment App",
+    name: "Real Time Chat App",
     description:
       // "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      "A full-featured web application developed using the MERN stack, designed to simulate the functionality of PayTM. This app supports user registration, authentication, and secure banking transactions. Built with modern tools and technologies such as React with Vite, Tailwind CSS for styling.",
+      "I developed a chat application with real-time, two-way communication, allowing message editing, deletion, and online status display. It also includes a search functionality for efficiently managing and locating contacts Tech Used- ReactJS, NodeJS, MongoDB, ExpressJS, Redux, React-Hooks,Tailwind CSS, APIs",
     tags: [
       {
         name: "react",
@@ -228,34 +257,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: payment,
-    source_code_link: "https://github.com/syedahmedullah14/PayTM-Project",
+    image: "chatt.jpg",
+    source_code_link: "https://github.com/ManuSaini9084/Real-Time-Chat-Frontend",
   },
   {
-    name: "Company Portfolio",
+    name: "Rail Ticket Karo",
     description:
-      "Built a responsive portfolio using ReactJS, leveraging components and state management for a seamless user experience across devices. Developed a feature for dynamic theme changes, enhancing user engagement by allowing personalization of background and foreground colors through efficient state management.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "bootsrap5",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: intelligence2,
-    source_code_link: "https://int-elligence.co.uk/",
-  },
-  {
-    name: "Rental Management System",
-    description:
-      "Developed a robust system for a construction equipment company to manage customer records, including transaction history, products, suppliers, and rental records, ensuring secure and efficient data storage and retrieval. Integrated a billing and invoicing system, allowing for accurate and streamlined financial transactions.",
+      "The online railway ticket reservation system is designed to efficiently manage train bookings and provide real-time information on availability, prices, and schedules. It has admin and user panels. It provides easy booking of train ticket. Schedules of train are handled properly. Tech Used- ReactJs, NodeJs, PostgreSQL, APIs",
     tags: [
       {
         name: "react",
@@ -274,8 +282,29 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: rental,
-    source_code_link: "https://github.com/syedahmedullah14",
+    image: "rail.jpg",
+    source_code_link: "https://github.com/ManuSaini9084/Railway-irctc",
+  },
+  {
+    name: "Empowering India",
+    description:
+      "An inclusive platform to provide information about government schemes, NGOs, and collaboration opportunities to support marginalized communities. It provides multilingual support, chatbots facilities, authentication as well. Tech Used- ReactJs, NodeJs,ExpressJs, APIs, MongoDB, Tailwind CSS",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "bootsrap5",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "incl.avif",
+    source_code_link: "https://github.com/yashpatel139/Inclusion",
   },
 ];
 
