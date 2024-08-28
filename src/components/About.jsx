@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import ComputersCanvas from './canvas/Computers';
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
@@ -44,12 +45,25 @@ const About = () => {
       </motion.div>
 
       <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
-      >
-       I'm computer science student from IET Lucknow. I'm a passionate Full Stack Web Developer and Competitive Programmer. Over 6-8 months of internship experience, I have dedicated myself to mastering key technologies required for Full Stack Web Development. My skills include React.js, Next.js, Node.js, Express.js, MySQL, MongoDB, PostgreSQL, HTML, CSS, and JavaScript.
-      </motion.p>
+  variants={fadeIn("", "", 0.1, 1)}
+  className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+>
+  I'm a computer science student from IET Lucknow. I'm a passionate Full Stack Web Developer and Competitive Programmer. Over 6-8 months of internship experience, I have dedicated myself to mastering key technologies required for Full Stack Web Development. My skills include React.js, Next.js, Node.js, Express.js, MySQL, MongoDB, PostgreSQL, HTML, CSS, and JavaScript.
+</motion.p>
 
+<motion.div
+  variants={fadeIn("", "", 0.1, 1)}
+  className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+>
+  <p>
+    <span className="text-white">Degree:</span> B-Tech in Computer Science and Engineering (AI) &nbsp; <span className="text-white">CGPA:</span> 8.8
+  </p>
+  <p className='mt-2'>
+    <span className="text-white">Email:</span> manusaini22092003@gmail.com
+  </p>
+</motion.div>
+
+        
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />

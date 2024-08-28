@@ -69,18 +69,32 @@ const Navbar = () => {
         </div>
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>
-          {navLinks.map((nav) => (
-            <li
-              key={nav.id}
-              className={`${
-                active === nav.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(nav.title)}
-            >
-              <a href={`#${nav.id}`}>{nav.title}</a>
-            </li>
-          ))}
-        </ul>
+  {navLinks.map((nav) => (
+    <li
+      key={nav.id}
+      className={`${
+        active === nav.title ? "text-white" : "text-secondary"
+      } hover:text-white text-[18px] font-medium cursor-pointer`}
+      onClick={() => setActive(nav.title)}
+    >
+      <a href={`#${nav.id}`}>{nav.title}</a>
+    </li>
+  ))}
+  <li
+    className={`${
+      active === 'Resume' ? "text-white" : "text-secondary"
+    } hover:text-white text-[18px] font-medium cursor-pointer`}
+  >
+    <a
+      href="https://drive.google.com/file/d/1870reVv-3iPOUDKmOOewwpgD2GmtrdSH/view?usp=sharing"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Resume
+    </a>
+  </li>
+</ul>
+
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img
