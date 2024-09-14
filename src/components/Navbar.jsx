@@ -86,7 +86,7 @@ const Navbar = () => {
     } hover:text-white text-[18px] font-medium cursor-pointer`}
   >
     <a
-      href="https://drive.google.com/file/d/1870reVv-3iPOUDKmOOewwpgD2GmtrdSH/view?usp=sharing"
+      href="https://drive.google.com/file/d/1ZkgbG2vB4tmjGvLpHDCVtXEsQ9Irhghx/view?usp=sharing"
       target="_blank"
       rel="noopener noreferrer"
     >
