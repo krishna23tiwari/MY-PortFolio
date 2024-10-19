@@ -86,7 +86,7 @@ const Navbar = () => {
             } hover:text-white text-[18px] font-medium cursor-pointer relative group`}
           >
             <a
-              href="https://drive.google.com/file/d/1870reVv-3iPOUDKmOOewwpgD2GmtrdSH/view?usp=sharing"
+              href="https://drive.google.com/file/d/1O1QqGlLX0G50ig0-N-BCvoUhD9lVxcTV/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -132,7 +132,7 @@ const Navbar = () => {
                 }`}
               >
                 <a
-                  href="https://drive.google.com/file/d/1870reVv-3iPOUDKmOOewwpgD2GmtrdSH/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1O1QqGlLX0G50ig0-N-BCvoUhD9lVxcTV/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

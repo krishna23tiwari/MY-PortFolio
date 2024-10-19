@@ -71,7 +71,7 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone git@github.com:adrianhajdin/project_3D_developer_portfolio.git
+git clone https://github.com/ManuSaini9084/My-3D-Portfolio.git
 cd project_3D_developer_portfolio
 ```
 
