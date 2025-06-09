@@ -29,6 +29,7 @@ import {
   payment,
   intelligence2,
   rental,
+ 
   
   
 } from "../assets";
@@ -100,22 +101,12 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
+ 
   {
     name: "docker",
     icon: docker,
@@ -124,23 +115,36 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Development Internship",
-    company_name: "Bluestock Fintech",
+    title: "MERN Stack Trainee",
+    company_name: "REGex Softwares",
     icon: "bfelogo.jpeg",
     iconBg: "#fcfafa",
-    date: "Jun 2024- Aug 2024",
+    date: "July 2024",
     link:"https://drive.google.com/file/d/1-RDb_GBbw86BneAL1hntM36nPUx1owm-/view",
-    points: [
+    // points: [
       // "Developing and maintaining web applications using React.js, Next.js, Express.js and other related technologies.",
       // "Developed and maintained reliable web applications with user-friendly interfaces using ReactJS, Next.js, and Tailwind CSS, collaborating with cross-functional teams to meet project requirements",
       // "Managed databases (MySQL, MongoDB) and developed scalable JavaScript applications using Express.js, ensuring data integrity, security, and maintainability.",
       // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       // // "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-      "Designed and developed a stock market website using Python, Django, and Figma, etc.",
-      "Gained hands-on experience in stock market app development, contributing to real-world projects.",
-      "Tech used - Python, Django, Figma",
-    ],
+    //   "Participating in code reviews and providing constructive feedback to other developers.",
+    //   "Designed and developed a stock market website using Python, Django, and Figma, etc.",
+    //   "Gained hands-on experience in stock market app development, contributing to real-world projects.",
+    //   "Tech used - Python, Django, Figma",
+    // ],
+
+    points: [
+  "Built full-stack web applications using MongoDB, Express.js, React.js, and Node.js (MERN).",
+  "Developed responsive front-end interfaces with React.js and Tailwind CSS, ensuring cross-browser compatibility.",
+  "Implemented RESTful APIs using Express.js and Node.js to handle data operations with MongoDB.",
+  "Performed CRUD operations, user authentication, and route protection using JWT and middleware.",
+  "Used Postman and MongoDB Compass for API testing and database management.",
+  "Gained hands-on experience integrating front-end and back-end logic, ensuring smooth data flow.",
+  "Learned version control using Git and collaborated on projects using GitHub.",
+  "Participated in daily code reviews and team meetings to discuss challenges and improvements.",
+  "Built a stock market web application using Python, Django, and Figma as part of a cross-tech project.",
+  "Tech Stack: MERN (MongoDB, Express.js, React.js, Node.js), Tailwind CSS, Git, Postman, MongoDB Compass, Python, Django, Figma."
+]
 },
   {
     title: "Software Developer Intern",

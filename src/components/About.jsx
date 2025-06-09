@@ -48,7 +48,13 @@ const About = () => {
   variants={fadeIn("", "", 0.1, 1)}
   className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
 >
-  I'm a computer science student from IET Lucknow. I'm a passionate Full Stack Web Developer and Competitive Programmer. Over 6-8 months of internship experience, I have dedicated myself to mastering key technologies required for Full Stack Web Development. My skills include React.js, Next.js, Node.js, Express.js, MySQL, MongoDB, PostgreSQL, HTML, CSS, and JavaScript.
+I'm a passionate Full Stack Web Developer and Competitive Programmer with one year of hands-on experience as a trainee at REGex Software. During this time, I’ve contributed to the development and deployment of dynamic and scalable web applications, working across both frontend and backend technologies.<br></br>
+
+I’ve gained extensive experience with React.js, Next.js, Node.js, Express.js, MongoDB, MySQL, PostgreSQL, HTML, CSS, and JavaScript, and have collaborated on real-world projects in agile environments.<br></br>
+
+At REGex Software, I’ve been actively involved in the full software development lifecycle — from brainstorming and building features to deploying and maintaining production-ready applications. I take pride in writing clean, efficient code and continuously improving my skills to stay current with modern web development trends.
+
+
 </motion.p>
 
 <motion.div
@@ -56,10 +62,10 @@ const About = () => {
   className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
 >
   <p>
-    <span className="text-white">Degree:</span> B-Tech in Computer Science and Engineering (AI) &nbsp; <span className="text-white">CGPA:</span> 8.8
+    <span className="text-white">Degree:</span> Masters of Comuter Applications(MCA) &nbsp; <span className="text-white">CGPA:</span> 8.8
   </p>
   <p className='mt-2'>
-    <span className="text-white">Email:</span> manusaini22092003@gmail.com
+    <span className="text-white">Email:</span> krishna23tiwari.kt@gmail.com
   </p>
 </motion.div>
 
