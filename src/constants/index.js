@@ -270,7 +270,7 @@ const projects = [
       },
     ],
     image: music, // Replace with actual image file name or path
-    // link: "https://music-app-frontend.vercel.app/", // Replace with your actual deployed frontend link
+    link: "jio-savan-ten.vercel.app" // Replace with your actual deployed frontend link
     source_code_link: "https://github.com/krishna23tiwari/Jio-savan", // Replace with your GitHub repo link
   },
   
