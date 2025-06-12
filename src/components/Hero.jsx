@@ -9,7 +9,7 @@ const Hero = () => {
   useEffect(() => {
     // Initialize Typed.js on component mount
     const typed = new Typed(".typing", {
-      strings: ["Manu Saini", "Web Developer", "Web Designer", "CS Engineer"],
+      strings: ["Krishan Kant Tiwari", "MERN Developer", "Full Stack Developer", "Competitive Programmer"],
       typeSpeed: 100,
       backSpeed: 60,
       loop: true,

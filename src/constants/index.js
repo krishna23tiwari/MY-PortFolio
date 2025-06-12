@@ -29,7 +29,10 @@ import {
   payment,
   intelligence2,
   rental,
- 
+  REGex2,
+  music,
+  taskManagment,
+  hotelManagment
   
   
 } from "../assets";
@@ -107,20 +110,20 @@ const technologies = [
     icon: git,
   },
  
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
   {
     title: "MERN Stack Trainee",
     company_name: "REGex Softwares",
-    icon: "bfelogo.jpeg",
+    icon: REGex2,
     iconBg: "#fcfafa",
     date: "July 2024",
-    link:"https://drive.google.com/file/d/1-RDb_GBbw86BneAL1hntM36nPUx1owm-/view",
+    // link:"https://drive.google.com/file/d/1-RDb_GBbw86BneAL1hntM36nPUx1owm-/view",
     // points: [
       // "Developing and maintaining web applications using React.js, Next.js, Express.js and other related technologies.",
       // "Developed and maintained reliable web applications with user-friendly interfaces using ReactJS, Next.js, and Tailwind CSS, collaborating with cross-functional teams to meet project requirements",
@@ -146,47 +149,7 @@ const experiences = [
   "Tech Stack: MERN (MongoDB, Express.js, React.js, Node.js), Tailwind CSS, Git, Postman, MongoDB Compass, Python, Django, Figma."
 ]
 },
-  {
-    title: "Software Developer Intern",
-    company_name: "Hashedbit Innovation",
-    icon: "hilogo.jpeg",
-    iconBg: "#d4cfcf",
-    date: "Jan 2024- May 2024",
-    link:"https://drive.google.com/file/d/1_D66BYcIcNs8K6ecJy4ReC6aLk55vDfC/view",
-    points: [
-        "Developing and maintaining web applications using React.js, Next.js, Express.js and other related technologies.",
-      "Developed and maintained reliable web applications with user-friendly interfaces using ReactJS, Next.js, and Tailwind CSS, collaborating with cross-functional teams to meet project requirements",
-      "Managed databases (MySQL, MongoDB) and developed scalable JavaScript applications using Express.js, ensuring data integrity, security, and maintainability.",
-      "Tech used - Reactjs, Nodejs, Expressjs, MySQL, CSS, Javascript."
-    ],
-  },
-  {
-    title: "Full Stack Developer Intern",
-    company_name: "Octanet Services Pvt Ltd",
-    icon: "oct.jpeg",
-    iconBg: "#fcfafa",
-    date: "October 2023 - December 2023", 
-    link:"https://drive.google.com/file/d/1PFSn4BcwO8sgodhpvPh1LZk9-p3_Yx5a/view",
-    points: [
-      "Collaborated with a team to create and maintain web applications, gaining hands-on experience in HTML5, CSS3, and JavaScript.",
-      "Assisted in designing and developing user interfaces with React.JS, creating interactive and responsive web experiences.",
-      "Contributed to web application development and maintenance, improving performance through active participation in codebase enhancements and troubleshooting.",
-      "Gained exposure to frameworks like Bootstrap by helping create visually appealing and user-friendly web interfaces.",
-    ],
-  },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
+
 ];
 
 const testimonials = [
@@ -274,15 +237,24 @@ const testimonials = [
 ];
 
 const projects = [
+
+
   {
-    name: "Real Time Chat App",
+    name: "Music Streaming App",
     description:
-      // "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      "I developed a chat application with real-time, two-way communication, allowing message editing, deletion, and online status display. It also includes a search functionality for efficiently managing and locating contacts Tech Used- ReactJS, NodeJS, MongoDB, ExpressJS, Redux, React-Hooks,Tailwind CSS, APIs",
+      "I built a full-featured Music Streaming App where users can browse songs, play/pause, create playlists, and experience a smooth, modern UI with responsive design. It includes user authentication, song search, audio player controls, and real-time playlist updates. Tech Used - ReactJS, Redux, NodeJS, ExpressJS, MongoDB, Tailwind CSS.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
       },
       {
         name: "express.js",
@@ -294,61 +266,84 @@ const projects = [
       },
       {
         name: "tailwind",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
-    image: "chatt.jpg",
-    link:"https://real-time-chat-frontend-1.vercel.app/",
-    source_code_link: "https://github.com/ManuSaini9084/Real-Time-Chat-Frontend",
+    image: music, // Replace with actual image file name or path
+    // link: "https://music-app-frontend.vercel.app/", // Replace with your actual deployed frontend link
+    source_code_link: "https://github.com/krishna23tiwari/Jio-savan", // Replace with your GitHub repo link
   },
+  
+ 
+
   {
-    name: "Rail Ticket Karo",
+    name: "Task Manager Dashboard",
     description:
-      "The online railway ticket reservation system is designed to efficiently manage train bookings and provide real-time information on availability, prices, and schedules. It has admin and user panels. It provides easy booking of train ticket. Schedules of train are handled properly. Tech Used- ReactJs, NodeJs, PostgreSQL, APIs",
+      "I developed a complete task management system with separate dashboards for admin and users. Admins can manage users, assign tasks, and view status updates. Users can view assigned tasks, mark them complete, and see task summaries. Includes role-based authentication, real-time updates, and an interactive UI. Tech Used - ReactJS, Redux, NodeJS, ExpressJS, MongoDB, Tailwind CSS.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
       },
       {
         name: "express.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongodb",
         color: "pink-text-gradient",
       },
       {
-        name: "aws",
+        name: "mongodb",
         color: "green-text-gradient",
       },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
     ],
-    image: "rail.jpg",
-    link:"https://github.com/ManuSaini9084/Railway-irctc",
-    source_code_link: "https://github.com/ManuSaini9084/Railway-irctc",
+    image: taskManagment, // Replace with your actual image file for the Task Manager project
+    // link: "https://task-manager-dashboard.vercel.app/", // Replace with your deployed URL if available
+    source_code_link: "https://github.com/krishna23tiwari/Task-manager",
   },
+  
+
+
   {
-    name: "Empowering India",
+    name: "Hotel Management System",
     description:
-      "An inclusive platform to provide information about government schemes, NGOs, and collaboration opportunities to support marginalized communities. It provides multilingual support, chatbots facilities, authentication as well. Tech Used- ReactJs, NodeJs,ExpressJs, APIs, MongoDB, Tailwind CSS",
+      "A full-featured hotel management web app that allows admins to add, update, activate/deactivate, and delete hotels along with their associated states and cities. It supports search, sort, and filtering of active/inactive entries. Built with React for frontend, Node.js and Express for backend, and MongoDB for data handling. Tech Used - ReactJS, NodeJS, ExpressJS, MongoDB, Tailwind CSS.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "bootsrap5",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "express.js",
         color: "pink-text-gradient",
       },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
     ],
-    image: "incl.avif",
-    link:"https://inclusion-empowering-india-wfen.onrender.com/",
-    source_code_link: "https://github.com/yashpatel139/Inclusion",
-  },
+    image: hotelManagment, // Replace with the actual image filename of your hotel app
+    // link: "https://your-deployed-link.com", // Replace with your deployed app link if available
+    source_code_link: "https://github.com/krishna23tiwari/Hotel-Management-System",
+  }
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };

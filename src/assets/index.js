@@ -35,6 +35,11 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import payment from "./payment.jpg";
 import rental from "./rental.png";
+import REGex2 from "./REGex2.png";
+import music from "./music.png";
+import taskManagment from "./taskManagment.png";
+import hotelManagment from "./hotelManagment.jpg";
+import klogo from "./klogo.avif";
 
 export {
   logo,
@@ -70,5 +75,10 @@ export {
   sun,
   payment,
   intelligence2,
-  rental
+  rental,
+  REGex2,   
+  music,
+  taskManagment,
+  klogo,
+  hotelManagment,
 };

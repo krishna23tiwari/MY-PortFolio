@@ -44,9 +44,9 @@ const Contact = () => {
         'template_70p5qen',
         {
           from_name: form.name,
-          to_name: "Manu saini",
+          to_name: "Krishan kant",
           from_email: form.email,
-          to_email: "manusaini22092003@gmail.com",
+          to_email: "krishna23tiwari.kt@gmail.com",
           message: form.message,
         },
         'Lyi7bwMlspOLLJ64o'

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close, github } from "../assets";
+import { logo, menu, close, github, klogo } from "../assets";
 import linkedin from "../assets/linkedin.svg";
 import x from "../assets/x.svg";
 
@@ -45,23 +45,23 @@ const Navbar = () => {
               window.scrollTo(0, 0);
             }}
           >
-            <img src="mlogo.avif" alt='logo' className='w-9 h-9 object-contain' />
+            <img src= {klogo} alt='logo' className='w-9 h-9 object-contain' />
             <p className='text-white text-[18px] font-bold cursor-pointer flex'>
-              Manu &nbsp;
+              KK Tiwari &nbsp;
               <span className='sm:block hidden'> | Full-Stack Developer</span>
             </p>
           </Link>
 
           <div className="flex gap-4 ml-5">
-            <a href="https://www.linkedin.com/in/manu-saini-840515215/" target="_blank" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/krishan-kant-tiwari-979bb8328/" target="_blank" aria-label="LinkedIn">
               <img src={linkedin} alt="LinkedIn" className='w-9 h-9' />
             </a>
-            <a href="https://github.com/ManuSaini9084" target="_blank" aria-label="GitHub">
+            <a href="https://github.com/krishna23tiwari" target="_blank" aria-label="GitHub">
               <img src={github} alt="GitHub" className='w-9 h-9' />
             </a>
-            <a href="https://x.com/ManuSaini82045" target="_blank" aria-label="Twitter/X">
+            {/* <a href="https://x.com/ManuSaini82045" target="_blank" aria-label="Twitter/X">
               <img src={x} alt="Twitter/X" className='w-9 h-9' />
-            </a>
+            </a> */}
           </div>
         </div>
 
@@ -86,7 +86,7 @@ const Navbar = () => {
             } hover:text-white text-[18px] font-medium cursor-pointer relative group`}
           >
             <a
-              href="https://drive.google.com/file/d/1O1QqGlLX0G50ig0-N-BCvoUhD9lVxcTV/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Vvwwoq0LjhpnQDY21CIgCylmxaU5nJ_V/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
