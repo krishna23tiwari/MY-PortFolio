@@ -347,7 +347,7 @@ const projects = [
     ],
     image: hotelManagment, // Replace with the actual image filename of your hotel app
     link: "https://hotel-management-frontend-6wmh.onrender.com", 
-    source_code_link: "https://github.com/krishna23tiwari/Hotel-Management-System",
+    source_code_link: "https://github.com/krishna23tiwari/Hotel-Management",
   }
   
 ];
