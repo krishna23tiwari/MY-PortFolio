@@ -241,8 +241,10 @@ const projects = [
 
   {
     name: "Music Streaming App",
-    description:
-      "I built a full-featured Music Streaming App where users can browse songs, play/pause, create playlists, and experience a smooth, modern UI with responsive design. It includes user authentication, song search, audio player controls, and real-time playlist updates. Tech Used - ReactJS, Redux, NodeJS, ExpressJS, MongoDB, Tailwind CSS.",
+    // description:
+    //   "I built a full-featured Music Streaming App where users can browse songs, play/pause, create playlists, and experience a smooth, modern UI with responsive design. It includes user authentication, song search, audio player controls, and real-time playlist updates. Tech Used - ReactJS, Redux, NodeJS, ExpressJS, MongoDB, Tailwind CSS.",
+   description:
+  "I built a full-featured Music Streaming App where users can browse songs, play/pause tracks, create playlists, and enjoy a smooth, modern UI with fully responsive design. It includes features like user authentication (mock or local), real-time playlist updates, and an interactive audio player with custom controls. Songs can be searched dynamically, and playlists are managed on the client side using Redux for state handling. The app delivers a seamless UX across devices without a backend. Tech Used - ReactJS, Redux, Tailwind CSS.",
     tags: [
       {
         name: "react",
@@ -278,8 +280,10 @@ const projects = [
 
   {
     name: "Task Manager Dashboard",
-    description:
-      "I developed a complete task management system with separate dashboards for admin and users. Admins can manage users, assign tasks, and view status updates. Users can view assigned tasks, mark them complete, and see task summaries. Includes role-based authentication, real-time updates, and an interactive UI. Tech Used - ReactJS, Redux, NodeJS, ExpressJS, MongoDB, Tailwind CSS.",
+    // description:
+    //   "I developed a complete task management system with separate dashboards for admin and users. Admins can manage users, assign tasks, and view status updates. Users can view assigned tasks, mark them complete, and see task summaries. Includes role-based authentication, real-time updates, and an interactive UI. Tech Used - ReactJS, Redux, NodeJS, ExpressJS, MongoDB, Tailwind CSS.",
+     description:
+  "I developed a full-stack Task Management System with separate dashboards for admins and users. Admins can create, assign, update, and delete tasks, as well as manage user roles and statuses. Users can view tasks assigned to them, mark them as complete, and track their task history. The system features secure JWT-based authentication and role-based access control. Real-time task updates and status changes are managed using Redux. Implemented personalized UI themes and enhanced user experience with responsive design. Tech Stack: React.js, Redux, Node.js, Express.js, MongoDB, Tailwind CSS, Mongoose, JWT.",
     tags: [
       {
         name: "react",
@@ -315,8 +319,10 @@ const projects = [
 
   {
     name: "Hotel Management System",
-    description:
-      "A full-featured hotel management web app that allows admins to add, update, activate/deactivate, and delete hotels along with their associated states and cities. It supports search, sort, and filtering of active/inactive entries. Built with React for frontend, Node.js and Express for backend, and MongoDB for data handling. Tech Used - ReactJS, NodeJS, ExpressJS, MongoDB, Tailwind CSS.",
+    // description:
+    //   "A full-featured hotel management web app that allows admins to add, update, activate/deactivate, and delete hotels along with their associated states and cities. It supports search, sort, and filtering of active/inactive entries. Built with React for frontend, Node.js and Express for backend, and MongoDB for data handling. Tech Used - ReactJS, NodeJS, ExpressJS, MongoDB, Tailwind CSS.",
+     description:
+  "Developed a full-stack Hotel Management System featuring complete CRUD operations for hotels, cities, and states. Integrated OTP-based user verification during registration and implemented secure authentication using JWT. Enabled automated booking confirmation emails via Nodemailer and allowed users to upload custom background images using Cloudinary. Added personalized theme selection to enhance the user experience. Tech Stack: React.js, Node.js, Express.js, MongoDB, Tailwind CSS, Mongoose, Nodemailer, Cloudinary, JWT.",
     tags: [
       {
         name: "react",
@@ -340,7 +346,7 @@ const projects = [
       },
     ],
     image: hotelManagment, // Replace with the actual image filename of your hotel app
-    // link: "https://your-deployed-link.com", // Replace with your deployed app link if available
+    link: "https://hotel-management-frontend-6wmh.onrender.com", 
     source_code_link: "https://github.com/krishna23tiwari/Hotel-Management-System",
   }
   
