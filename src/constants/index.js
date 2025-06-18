@@ -311,8 +311,8 @@ const projects = [
       },
     ],
     image: taskManagment, // Replace with your actual image file for the Task Manager project
-    // link: "https://task-manager-dashboard.vercel.app/", // Replace with your deployed URL if available
-    source_code_link: "https://github.com/krishna23tiwari/Task-manager",
+    link: "https://task-management-new-1.onrender.com",
+    source_code_link: "https://github.com/krishna23tiwari/Task-Management-New",
   },
   
 
